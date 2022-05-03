@@ -2,6 +2,10 @@ function area(w, h) {
   return w * h;
 }
 
+function circleArea(r) {
+  return Math.PI * Math.pow(r, 2);
+}
+
 function circumference(w, h) {
   return 2 * w + 2 * h;
 }
