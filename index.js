@@ -2,6 +2,10 @@ function area(w, h) {
   return w * h;
 }
 
+function area(w) {
+  return w ** 2;
+}
+
 function circumference(w, h) {
   return 2 * w + 2 * h;
 }
